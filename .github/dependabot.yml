@@ -1,0 +1,16 @@
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    target-branch: "eval/dependabot"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 50
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    target-branch: "eval/dependabot"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 50
